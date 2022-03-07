@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ĐĂNG KÍ DU LỊCH </title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        table{
+            background-color: rgba(225, 228, 74,0.2);
+        }
+        .chu {
+            color: rgb(3, 176, 207);
+        }
+        fieldset{
+            border: 3px solid #c63;
+        }
+        .textarea {
+            margin-bottom: -10px;
+            width: 100px;
+            
+        }
+       
+
+    </style>
+</head>
+<body>
+    <table cellspacing="0" border="1">
+        <caption  class="chu" > ĐĂNG KÍ DU LỊCH</caption>
+        <tr>
+            <td class="chu">Họ và tên</td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td class="chu"> Địa chỉ </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td class="chu" > Điện thoại </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td class="chu"> Khách Việt Nam </td>
+            <td>
+                <input type="checkbox" checked>
+            </td>
+        </tr>
+        <tr>
+            <td class="chu"> Chọn tour </td>
+            <td>
+                <select name="" id="">
+                    <option value="">Buôn Ma Thuộc</option>
+                    <option value="">Gia Lai</option>
+                    <option value="">Kontum</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="chu"> Phương tiện</td>
+            <td>
+                <input name="chon" type="radio"> <span class="chu" > Máy Bay </span>
+                <input name="chon" type="radio"> <span class="chu" > Xe ô tô </span>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <fieldset>
+                    <legend style="color: #c63;"> Số lượng đoàn khách </legend>
+                   <span class="chu" > Người lớn </span> <input type="text" size="2"> 
+                   <span class="chu" > Trẻ em </span> <input type="text" size="2">
+                </fieldset>
+             </td>
+        </tr>
+        <tr>
+            <td class="chu" > Ghi chú thêm </td>
+            <td>
+                <textarea class="kkk" name="" id="" cols="30" rows="3" style="overflow-y: scroll;resize: none; height: 59px;"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2">
+                <button > Đồng ý </button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
